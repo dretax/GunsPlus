@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/testing/craftbukkit-1.4.7-R1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/LWC.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/SpoutPlugin.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/WorldGuard.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/imports/ApiPlus-1.2-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
