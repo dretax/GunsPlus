@@ -24,6 +24,8 @@ public class Tripod extends BlockType {
 	public static boolean tripodenabled = true;
 	public static boolean forcezoom = true;
 	public static float hardness = 2.0f;
+	public void Wood(String name, int id, int data) {
+	}
 
 	public Tripod(GunsPlus plugin, String texture) {
 		super(plugin, "Tripod", false);
@@ -31,7 +33,7 @@ public class Tripod extends BlockType {
 		this.setHardness(hardness);
 		this.setLightLevel(MaterialData.cobblestone.getLightLevel());
 		this.setItemDrop(new SpoutItemStack(this, 1));
-		this.setStepSound(SoundEffect.WOOD);
+		this.setStepSound(SoundEffect.STEP_WOOD);
 		this.setBlockDesign(new TripodDesign(plugin, texture));
 	}
 
